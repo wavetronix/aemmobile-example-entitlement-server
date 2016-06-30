@@ -37,8 +37,8 @@ $db_name = "entitlement_admin";
  * Please uncomment below and input actual value.
  */
 $admin_list = array(
-	array('username' => 'appsupport@wavetronix.com', 'password' => '40A58BEB3C3956A1D2896FF8D7CEAE8D'), // Admin user 1
-	array('username' => 'admin2', 'password' => '202cb962ac59075b964b07152d234b70'), // Admin user 2
+	array('username' => 'marketing_admin', 'password' => '889da330297dadee8084f2b31d705983'), // Marketing admin
+	array('username' => 'admin', 'password' => '695dc2b126181c3c3f2a2cba60214fe8'), // Server admin
 );
 
 ?>
