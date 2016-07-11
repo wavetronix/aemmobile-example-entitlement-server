@@ -4,28 +4,28 @@
  * @example $db_host = "localhost";
  * Please uncomment below and input actual value.
  */
-// $db_host = "localhost";
+$db_host = "db";
 
 /**
  * @param {String} $db_user - The mysql user name.
  * @example $db_user = "root";
  * Please uncomment below and input actual value.
  */
-// $db_user = "root";
+$db_user = "root";
 
 /**
  * @param {String} $db_password - The mysql password.
  * @example $db_password = "root";
  * Please uncomment below and input actual value.
  */
-// $db_password = "root";
+$db_password = "wavetronix-it-web-db-admin";
 
 /**
  * @param {String} $db_name - The mysql database name.
  * @example $db_name = "entitlement_admin";
  * Only change below if the database name was different than 'entitlement_admin'.
  */
-// $db_name = "entitlement_admin";
+$db_name = "entitlement_admin";
 
 /**
  * @param {Array} $admin_list - The list of admin user credentials
@@ -36,9 +36,9 @@
  * For more info, please see http://php.net/manual/en/function.md5.php
  * Please uncomment below and input actual value.
  */
-// $admin_list = array(
-// 	array('username' => 'admin1', 'password' => '202cb962ac59075b964b07152d234b70'), // Admin user 1
-// 	array('username' => 'admin2', 'password' => '202cb962ac59075b964b07152d234b70'), // Admin user 2
-// );
+$admin_list = array(
+	array('username' => 'marketing_admin', 'password' => '889da330297dadee8084f2b31d705983'), // Marketing admin
+	array('username' => 'admin', 'password' => '695dc2b126181c3c3f2a2cba60214fe8'), // Server admin
+);
 
 ?>
