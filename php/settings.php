@@ -4,21 +4,21 @@
  * @example $db_host = "localhost";
  * Please uncomment below and input actual value.
  */
-$db_host = "db";
+$db_host = getenv('MYSQL_DB_HOST');
 
 /**
  * @param {String} $db_user - The mysql user name.
  * @example $db_user = "root";
  * Please uncomment below and input actual value.
  */
-$db_user = "root";
+$db_user = getenv('MYSQL_DB_USER');
 
 /**
  * @param {String} $db_password - The mysql password.
  * @example $db_password = "root";
  * Please uncomment below and input actual value.
  */
-$db_password = "wavetronix-it-web-db-admin";
+$db_password = getenv('MYSQL_DB_PASSWORD');
 
 /**
  * @param {String} $db_name - The mysql database name.
