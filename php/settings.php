@@ -25,7 +25,7 @@ $db_password = getenv('MYSQL_DB_PASSWORD');
  * @example $db_name = "entitlement_admin";
  * Only change below if the database name was different than 'entitlement_admin'.
  */
-$db_name = getenv('MYSQL_DB');
+$db_name = getenv('MYSQL_DB_DATABASE');
 
 /**
  * @param {Array} $admin_list - The list of admin user credentials
