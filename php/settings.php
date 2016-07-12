@@ -8,28 +8,28 @@ $opsworks = new OpsWorks();
  * @example $db_host = "localhost";
  * Please uncomment below and input actual value.
  */
-$db_host = $opsworks.db.host;
+$db_host = $opsworks->db->host;
 
 /**
  * @param {String} $db_user - The mysql user name.
  * @example $db_user = "root";
  * Please uncomment below and input actual value.
  */
-$db_user = $opsworks.db.username;
+$db_user = $opsworks->db->username;
 
 /**
  * @param {String} $db_password - The mysql password.
  * @example $db_password = "root";
  * Please uncomment below and input actual value.
  */
-$db_password = $opsworks.db.password;
+$db_password = $opsworks->db->password;
 
 /**
  * @param {String} $db_name - The mysql database name.
  * @example $db_name = "entitlement_admin";
  * Only change below if the database name was different than 'entitlement_admin'.
  */
-$db_name = $opsworks.db.database;
+$db_name = $opsworks->db->database;
 
 /**
  * @param {Array} $admin_list - The list of admin user credentials
