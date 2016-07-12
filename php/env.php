@@ -1,4 +1,5 @@
+MY_DB_USER = 
 <?php
-  $d = array('environment' => getenv('MYSQL_DB_USER'));
+  $d = getenv('MYSQL_DB_USER');
   echo $d
 ?>
